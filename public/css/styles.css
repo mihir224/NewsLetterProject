@@ -1,0 +1,28 @@
+body{
+    background-color:#4C3A51;
+    padding-top: 75px;
+}
+.card{
+    font-family: Montserrat;
+    border: #F9F2ED;
+    color: #4C3A51;
+    border-radius:40px ;
+
+}
+#news{
+    font-size: 3.5rem;
+    color: #4C3A51;
+}
+.intro{
+    font-family: Montserrat;
+    color: #F9F2ED;
+    
+}
+.signup{
+    font-size: 4rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+#button:hover{
+    background-color:#4C3A51;
+}
