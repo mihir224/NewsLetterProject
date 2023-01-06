@@ -5,8 +5,7 @@ const https=require('https');
 const client=require('@mailchimp/mailchimp_marketing');
 const app=express();
 client.setConfig({
-    apiKey:"fa47433d739c7bdc76a366785eeacff9-us9",
-    server:"us9",
+  
 });
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
@@ -39,7 +38,7 @@ app.post("/",function(req,res){
     app.post("/failure.html",function(req,res){
         res.redirect("/");
     })
-app.listen(process.env.PORT ,function(){
+app.listen(3000 ,function(){
     console.log("Server started on port 3000");
 });
 

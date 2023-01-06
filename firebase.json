@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "NewsLetterProject",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
